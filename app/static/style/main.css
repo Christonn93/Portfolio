@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Oxygen', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+  }
+
+  @font-face {
+    font-family: 'Fira Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+  }
+
+body{
+    background-color: #f5f1ed;
+    margin: 1rem;
+}
+
+.section-nav{
+    background-color: #DAD2BC;
+    height: 10rem;
+}
+
+.nav{
+    display: inline;
+    margin-top: 8rem;
+}
+
+.nav-link{
+    text-decoration: none;
+    background-color: #DAD2BC;
+    color: #252323;
+    font-family: 'Oxygen', sans-serif;
+    border: 1rem solid #DAD2BC;
+}
+

@@ -33,7 +33,7 @@ body {
     font-family: 'Oxygen', sans-serif;
     border: 1rem solid #DAD2BC;
     box-shadow: 0 3px 10px #252323;
-    border-radius: 1rem;
+    border-radius: 2rem;
     display: inline-block;
     margin-top: 2rem;
 }
@@ -67,12 +67,10 @@ body {
 }
 
 .footer {
-    background-color: #f5f1ed;
+    background: #DAD2BC;
     height: 10rem;
     position: fixed;
     margin-top: -50px;
-    background: #42A5F5;
     color: white;
     line-height: 50px;
-    padding: 0 20px;
 }

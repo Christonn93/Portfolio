@@ -37,13 +37,13 @@ body{
     
 }
 
-.active{
+.nav-link-active{
     text-decoration: none;
     background-color: #E8E2D5;
     color: #1C1A1A;
     font-family: 'Oxygen', sans-serif;
     border: 1rem solid #E8E2D5;
     box-shadow: 0 3px 10px #252323;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 

@@ -5,9 +5,9 @@ function findActiveLink() {
   
   function checkIfLinkIsActive(link) {
     if (link.href.contains(location.pathname)){
-      link.classList.add('active');
+      link.classList.add('nav-link-active');
     } else {
-      link.classList.remove('active');
+      link.classList.remove('nav-link-active');
     }
   }
   

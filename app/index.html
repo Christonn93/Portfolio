@@ -7,19 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link href="/static/style/main.css" rel="stylesheet">
-
-    <script>
-        $ (function (active) {
-        var current = location.pathname;
-            $('.nav-link').each(function(active){
-                var $this = $(this);
-                //if the current path is like this link, make it active
-                if($this.attr('href').indexOf(current) !== -1){
-                    $this.addClass('active');
-                }
-            })
-    })
-    </script>
 </head>
 
 <body>
@@ -35,11 +22,12 @@
         </div>
     </section>
     <div id="content"></div>
-    <script type="module" src="/static/js/index.js"></script>
-    <script src="/static/js/activelink.js"></script>
     <footer>
 
     </footer>
+    <script type="module" src="/static/js/index.js"></script>
+    <script src="app/static/js/activelink.js"></script>
+
 </body>
 
 </html>

@@ -10,7 +10,6 @@
 
 html,
 body {
-    height: 86%;
     margin: 0;
     background-color: #f5f1ed;
 }
@@ -38,13 +37,24 @@ body {
     margin-top: 2rem;
 }
 
+.nav-link:hover {
+    text-decoration: none;
+    background-color: #DAD2BC;
+    color: #252324;
+    font-family: 'Oxygen', sans-serif;
+    border: 1rem solid #DAD2BC;
+    box-shadow: 0 5px 12px #252323;
+    border-radius: 2rem;
+    display: inline-block;
+    margin-top: 2rem;
+}
+
 .nav-link-active {
     text-decoration: none;
     background-color: #E8E2D5;
     color: #1C1A1A;
     font-family: 'Oxygen', sans-serif;
     border: 1rem solid #E8E2D5;
-    box-shadow: 0 3px 10px #252323;
     border-radius: 2rem;
 }
 
@@ -66,11 +76,34 @@ body {
     padding-bottom: 50px;
 }
 
-.footer {
-    background: #DAD2BC;
-    height: 10rem;
-    position: fixed;
-    margin-top: -50px;
-    color: white;
-    line-height: 50px;
+.wrapper {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.page-header,
+.page-footer {
+    flex-shrink: 0;
+}
+
+.page-footer{
+    background-color: #DAD2BC;
+    display: block;
+   border: 2px solid black ;
+}
+
+.page-body {
+    flex-grow: 1;
+}
+
+.breadcrumb{
+    font-size: small;
+    padding-left: 2.5rem;
+}
+
+li {
+    direction: none;
 }

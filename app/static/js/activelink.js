@@ -13,7 +13,7 @@
 //  }
 //  window.addEventListener('DOMContentLoaded', findActiveLink)
 
-window.onload = function () {
+document.addEventListener("DOMContentLoaded", () => {
     var all_links = document.getElementById("nav-link").getElementsByTagName("a"),
     i=0, len=all_links.length,
     full_path = location.href.split("#")[0];
@@ -23,4 +23,4 @@ window.onload = function () {
             all_links[i].className = "nav-link-active";
         }
     }
-}
+});

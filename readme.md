@@ -5,6 +5,13 @@ Some of the codes are taken from other's and recreated to fit my use.
 
 ## Resaurces
 
-### single-page-app-vanilla-js
+### Single-page-app-vanilla-js
+
 Taken from my YouTube Tutorial:
+
 https://www.youtube.com/watch?v=6BozpmSjk-Y
+
+### Color palettet used in the project
+
+
+https://coolors.co/1c1a1a-252323-70798c-f5f1ed-e8e2d5-dad2bc-a99985

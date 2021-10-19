@@ -10,17 +10,16 @@
 
 body{
     background-color: #f5f1ed;
-    margin: 1rem;
 }
 
 .section-nav{
     background-color: #DAD2BC;
     height: 10rem;
+    display: block;
 }
 
 .nav{
-    display: inline;
-    margin-top: 8rem;
+    display: block;
 }
 
 .nav-link{
@@ -29,5 +28,17 @@ body{
     color: #252323;
     font-family: 'Oxygen', sans-serif;
     border: 1rem solid #DAD2BC;
+    box-shadow: 0 3px 10px #252323;
+    border-radius: 1rem;
+}
+
+.nav-link-active{
+    text-decoration: none;
+    background-color: #E8E2D5;
+    color: #1C1A1A;
+    font-family: 'Oxygen', sans-serif;
+    border: 1rem solid #E8E2D5;
+    box-shadow: 0 3px 10px #252323;
+    border-radius: 1rem;
 }
 

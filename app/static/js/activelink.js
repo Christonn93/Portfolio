@@ -1,14 +1,14 @@
 function findActiveLink() {
-    const links = document.querySelector('a');
-    links.forEach(checkIfLinkIsActive)
+  const links = document.querySelector('a');
+  links.querySelector(checkIfLinkIsActive)
+}
+
+function checkIfLinkIsActive(link) {
+  if (link.href.contains(location.pathname)){
+    link.classList.add('active');
+  } else {
+    link.classList.remove('active');
   }
-  
-  function checkIfLinkIsActive(link) {
-    if (link.href.contains(location.pathname)){
-      link.classList.add('nav-link-active');
-    } else {
-      link.classList.remove('nav-link-active');
-    }
-  }
-  
-  window.addEventListener('DOMContentLoaded', findActiveLink)
+}
+
+window.addEventListener('DOMContentLoaded', findActiveLink)

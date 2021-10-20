@@ -111,19 +111,29 @@ li {
 /*Conact card*/
 .id-card {
     display: block;
-    justify-content: center;
+    align-content: center;
 }
 
 .card-header{
-
+    display: block;
+    background-color: #4d4952;
 }
 
-.pic-circle {
+.img-frame-id{
+    padding: 1rem;
+}
 
+
+.pic-circle {
+    height: 250px;
+    border-radius: 50%;
+    border: solid #252323 0.5px;
+    box-shadow: 0 0.2rem 0.2rem  #252323;
 }
 
 .card-content{
-
+    background-color: #DAD2BC;
+    display: block;
 }
 
 .contact-form{

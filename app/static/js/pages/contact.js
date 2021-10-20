@@ -9,19 +9,23 @@ export default class extends AbstractView {
     async getHtml() {
         return `
         <section class="id-card">
-        <div class="card-header">
-            <img class="pic-circle" src="#" alt="profile pic">
-            <h2>Christopher Tønnesalnd</h2>
-
-        </div>
-        <div class="card-content">
-            <div class="info">
-                <p>Information about me</p>
+            <div class="card-header">
+                <div class="img-frame-id">
+                    <img src="../static/img/153684720_10158795395525490_149819903027147096_n.jpg" alt="Profile-picture" class="pic-circle">
+                </div>   
+                <h2>Christopher Tønnesalnd</h2>
             </div>
-        </div>
-    </section>
+            <div class="card-content">
+                <div class="info">
+                    <section>
+                        <a href="#">Here is my education documents</a>
+                    <p>Information about me</p>
+                    </section>
+                </div>
+            </div>
+        </section>
     <section class="contact-form">
-        <from>
+        <from action="/my-handling-form-page" method="post">
             <fieldset>
                 <legend>Contact me</legend>
                 <label class="form-label" for="name">Full name:

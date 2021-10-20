@@ -9,6 +9,8 @@
 2. https://kruxor.com/view/code/L8XP1/checking-the-current-url-and-then-marking-a-link-active-based-on-that-url/
 3. https://css-tricks.com/almanac/properties/b/box-shadow/
 4. https://htmlcheatsheet.com/
+5. https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-picture
+6. 
 
 
 ### Links from Mozilla and individual contributors.

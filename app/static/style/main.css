@@ -107,3 +107,35 @@ body {
 li {
     direction: none;
 }
+
+/*Conact card*/
+.id-card {
+    display: block;
+    justify-content: center;
+}
+
+.card-header{
+
+}
+
+.pic-circle {
+
+}
+
+.card-content{
+
+}
+
+.contact-form{
+    max-width: 50px;
+}
+
+.form-label{
+    margin-bottom: 1rem;
+}
+
+.cta-bt {
+    margin-top: 1rem;
+    background-color: #252323;
+    border-radius: 4%;
+}

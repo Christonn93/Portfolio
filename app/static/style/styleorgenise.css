@@ -1,4 +1,7 @@
-/* Media import & other imports */
+
+
+
+/*  copy paste from old style sheet*/
 
 @font-face {
     font-family: 'Oxygen', sans-serif;
@@ -10,40 +13,11 @@
     src: url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 }
 
-/* Global style & Base style */
-
 html,
 body {
     margin: 0;
     background-color: #f5f1ed;
 }
-
-h1,
-h2,
-h3,
-h4 {
-    font-family: 'Oxygen', sans-serif;
-}
-
-p,
-a {
-    font-family: 'Fira sans', sans-serif;
-}
-
-/* Header & Footer */
-
-.page-header,
-.page-footer {
-    flex-shrink: 0;
-}
-
-.page-footer {
-    background-color: #DAD2BC;
-    display: block;
-    border: 2px solid black;
-}
-
-/* Menu & Navigation */
 
 .section-nav {
     background-color: #DAD2BC;
@@ -89,8 +63,6 @@ a {
     border-radius: 2rem;
 }
 
-/* Content & Images */
-
 .content {
     min-height: 90%;
 }
@@ -117,22 +89,29 @@ a {
     margin-right: 1rem;
 }
 
+.page-header,
+.page-footer {
+    flex-shrink: 0;
+}
+
+.page-footer{
+    background-color: #DAD2BC;
+    display: block;
+   border: 2px solid black ;
+}
+
 .page-body {
     flex-grow: 1;
 }
 
-
-/* Links, Lists & Others */
-
-li {
-    direction: none;
-}
-
-.breadcrumb {
+.breadcrumb{
     font-size: small;
     padding-left: 2.5rem;
 }
 
+li {
+    direction: none;
+}
 
 /* Conact card */
 .id-card {
@@ -140,12 +119,12 @@ li {
     align-content: center;
 }
 
-.card-header {
+.card-header{
     display: block;
     background-color: #4d4952;
 }
 
-.img-frame-id {
+.img-frame-id{
     padding: 1rem;
 }
 
@@ -154,19 +133,19 @@ li {
     height: 250px;
     border-radius: 50%;
     border: solid #252323 0.5px;
-    box-shadow: 0 0.2rem 0.2rem #252323;
+    box-shadow: 0 0.2rem 0.2rem  #252323;
 }
 
-.card-content {
+.card-content{
     background-color: #DAD2BC;
     display: block;
 }
 
-.contact-form {
+.contact-form{
     max-width: 50px;
 }
 
-.form-label {
+.form-label{
     margin-bottom: 1rem;
 }
 

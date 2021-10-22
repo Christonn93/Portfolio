@@ -1,6 +1,7 @@
 import home from "./pages/home.js";
 import contact from "./pages/contact.js";
 import mywork from "./pages/mywork.js";
+import certificate from "./pages/Certificate.js";
 
 const pathToRegex = path => new RegExp("^" + path.replace(/\//g, "\\/").replace(/:\w+/g, "(.+)") + "$");
 

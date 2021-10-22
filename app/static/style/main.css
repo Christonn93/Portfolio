@@ -43,6 +43,20 @@ a {
     border: 2px solid black;
 }
 
+.section-wrapper{
+    
+}
+
+.section-header{
+
+}
+
+.section-content{
+
+}
+
+
+
 /* Menu & Navigation */
 
 .section-nav {
@@ -119,6 +133,11 @@ a {
 
 .page-body {
     flex-grow: 1;
+}
+
+.certificate-img {
+    height: 350px;
+    width: 470px;
 }
 
 

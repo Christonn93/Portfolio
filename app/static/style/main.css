@@ -43,16 +43,26 @@ a {
     border: 2px solid black;
 }
 
-.section-wrapper{
+.section-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-header {}
+
+.section-content {
     
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
 }
 
-.section-header{
-
+.certification-card {
+    width: auto;
 }
 
-.section-content{
-
+.certification-card-header {
+    padding: 2%;
 }
 
 
@@ -138,6 +148,7 @@ a {
 .certificate-img {
     height: 350px;
     width: 470px;
+    box-shadow: 0 3px 10px #252323;
 }
 
 
@@ -152,6 +163,10 @@ li {
     padding-left: 2.5rem;
 }
 
+.linkedin-link {
+    display: block;
+    margin: 1rem;
+}
 
 /* Conact card */
 .id-card {

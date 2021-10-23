@@ -5,7 +5,7 @@ export default class extends AbstractView {
         super(params);
         this.setTitle("Contact");
     }
-
+    
     async getHtml() {
         return `
         <section class="id-card">

@@ -1,7 +1,7 @@
 import home from "./pages/home.js";
 import contact from "./pages/contact.js";
 import mywork from "./pages/mywork.js";
-import certificate from "./pages/Certificate.js";
+import certificate from "./pages/certificate.js";
 
 const pathToRegex = path => new RegExp("^" + path.replace(/\//g, "\\/").replace(/:\w+/g, "(.+)") + "$");
 
@@ -23,7 +23,8 @@ const router = async () => {
     const routes = [
         { path: "/", view: home },
         { path: "/mywork", view: mywork },
-        { path: "/contact", view: contact }
+        { path: "/contact", view: contact },
+        { path: "/certificate", view: certificate }
     ];
 
     // Test each route for potential match

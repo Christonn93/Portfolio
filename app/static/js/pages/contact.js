@@ -18,7 +18,7 @@ export default class extends AbstractView {
             <div class="card-content">
                 <div class="info">
                     <section>
-                        <a href="#">Here is my education documents</a>
+                        <a href="./certificate.js" >Here is my education documents (not working yet)</a>
                     <p>Information about me</p>
                     </section>
                 </div>
